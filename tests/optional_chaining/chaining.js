@@ -10,6 +10,9 @@ a?.[++x];
 a?.b.c(++x).d;
 a?.b[3].c?.(x).d;
 (a?.b).c;
+(a?.b.c).d;
+(a?.b.c(++x).d).e;
+a?.b.c
 a?.b?.c;
 delete a?.b;
 
